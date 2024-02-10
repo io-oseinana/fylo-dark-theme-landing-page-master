@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+    <!-- BOXICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- CUSTOM STYLESHEET -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
@@ -103,7 +105,11 @@
           Securely share files and folders with friends, family and colleagues for live collaboration. No email 
           attachments required.
         </p>
-        <a href="#" class="cta__content-link">See how Fylo works</a>
+        <a href="#" class="cta__content-link">See how Fylo works
+          <figure>
+            <img src="./images/icon-arrow.svg" alt="Icon of an arrow">
+          </figure>
+        </a>
       </article>
     </section>
 
@@ -165,31 +171,70 @@
         </form>
       </article>
     </section>
+
+    <footer>
+      <section class="contact__fylo">
+        <figure class="contact__fylo-logo">
+          <img src="./images/logo.svg" alt="Fylo logo">
+        </figure>
+        <article class="location">
+          <figure class="location__icon">
+            <img src="./images/icon-location.svg" alt="Icon of a location pin">
+          </figure>
+          <p class="location__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+            dolore magna aliqua 
+          </p>
+        </article>
+      </section>
+      <section class="contact__info">
+        <article class="contact__info-phone">
+          <figure class="contact__info-phone-icon">
+            <img src="./images/icon-phone.svg" alt="Icon of a phone">
+          </figure>
+          <p class="contact__info-phone-text">+1-543-123-4567</p>
+        </article>
+        <article class="contact__info-email">
+          <figure class="contact__info-email-icon">
+            <img src="./images/icon-email.svg" alt="Icon of an email">
+          </figure>
+          <p class="contact__info-email-text">example@fylo.com  </p>
+        </article>
+      </section>
+      <nav class="footer__navbar">
+        <ul class="footer__navbar-menu">
+          <li class="footer__navbar-menu-item">
+            <a href="#">About Us</a>
+          </li>
+          <li class="footer__navbar-menu-item">
+            <a href="#">Jobs</a>
+          </li>
+          <li class="footer__navbar-menu-item">
+            <a href="#">Press</a>
+          </li>
+          <li class="footer__navbar-menu-item">
+            <a href="#">Blog</a>
+          </li>
+          <li class="footer__navbar-menu-item">
+            <a href="#">Contact Us</a>
+          </li>
+          <li class="footer__navbar-menu-item">
+            <a href="#">Terms</a>
+          </li>
+          <li class="footer__navbar-menu-item">
+            <a href="#">Privacy</a>
+          </li>
+        </ul>
+      </nav>
+      <section class="social__media">
+        <i class='bx bxl-facebook'></i>
+        <i class='bx bxl-twitter'></i>
+        <i class='bx bxl-instagram'></i>
+      </section>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Osei-Bonsu Isaac</a>.
+      </p>
+    </footer>
   </main>
- 
-
-  
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-  dolore magna aliqua
-
-  +1-543-123-4567
-  example@fylo.com
-
-  About Us
-  Jobs
-  Press
-  Blog
-
-  Contact Us
-  Terms
-  Privacy
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Osei-Bonsu Isaac</a>.
-    </p>
-  </footer>
 </body>
 </html>
