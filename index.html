@@ -2,24 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-    <!-- BOXICONS -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- CUSTOM STYLESHEET -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
   <main>
+    <!-- HEADER SECTION -->
     <header class="header">
-      <nav class="navbar">
+      <nav class="navbar" aria-label="Main Navigation">
         <figure class="navbar__logo">
           <img src="./images/logo.svg" alt="Fylo logo">
         </figure>
@@ -50,6 +43,7 @@
       </section>
     </header>
 
+    <!-- FEATURE SECTION -->
     <section class="features">
       <h2 class="features__title">Features</h2>
       <article class="features__grid">
@@ -92,6 +86,7 @@
       </article>
     </section>
 
+    <!-- CTA SECTION -->
     <section class="cta">
       <figure class="cta__image">
         <img src="./images/illustration-stay-productive.png" alt="Illustration of three persons holding a chat icon">
@@ -113,6 +108,7 @@
       </article>
     </section>
 
+    <!-- TESTIMONIALS SECTION -->
     <section class="testimonials">
       <article class="testimonials__content">
         <section class="testimonials__card">
@@ -159,6 +155,7 @@
       </article>
     </section>
 
+    <!-- SUBSCRIPTION SECTION -->
     <section class="subscription">
       <article class="subscription__content">
         <h2 class="subscription__content-title">Get early access today/h2>
@@ -172,6 +169,7 @@
       </article>
     </section>
 
+    <!-- FOOTER SECTION -->
     <footer>
       <section class="contact__fylo">
         <figure class="contact__fylo-logo">
@@ -200,7 +198,7 @@
           <p class="contact__info-email-text">example@fylo.com  </p>
         </article>
       </section>
-      <nav class="footer__navbar">
+      <nav class="footer__navbar" aria-label="Footer Navigation">
         <ul class="footer__navbar-menu">
           <li class="footer__navbar-menu-item">
             <a href="#">About Us</a>
