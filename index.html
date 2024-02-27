@@ -4,8 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!-- CUSTOM STYLESHEET -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./css/style.css">
   <!-- JS  -->
   <script src="./js/main.js" defer></script>
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
@@ -14,35 +23,37 @@
   <main>
     <!-- HEADER SECTION -->
     <header class="header">
-      <nav class="navbar" aria-label="Main Navigation">
-        <figure class="navbar__logo">
-          <img src="./images/logo.svg" alt="Fylo logo">
-        </figure>
-        <ul class="navbar__menu">
-          <li class="navbar__menu-item">
-            <a href="#">Features</a>
-          </li>
-          <li class="navbar__menu-item">
-            <a href="#">Team</a>
-          </li>
-          <li class="navbar__menu-item">
-            <a href="#">Sign In</a>
-          </li>
-        </ul>
-      </nav>
-      <section class="hero">
-        <figure class="hero__image">
-          <img src="./images/illustration-intro.png" alt="Illustration of 
-          a person working on a computer">
-        </figure>
-        <article class="hero__content">
-          <h1 class="hero__content-title">All your files in one secure location, accessible anywhere.</h1>
-          <p class="hero__content-text"> Fylo stores all your most important files in one secure location. Access them wherever 
-            you need, share and collaborate with friends family, and co-workers.
-          </p>
-          <a href="#" class="hero__content-link">Get Started</a>
-        </article>
-      </section>
+      <div class="header__container">
+        <nav class="navbar" aria-label="Main Navigation">
+          <figure class="navbar__logo">
+            <img src="./images/logo.svg" alt="Fylo logo">
+          </figure>
+          <ul role="list" class="navbar__menu">
+            <li class="navbar__menu-item">
+              <a href="#">Features</a>
+            </li>
+            <li class="navbar__menu-item">
+              <a href="#">Team</a>
+            </li>
+            <li class="navbar__menu-item">
+              <a href="#">Sign In</a>
+            </li>
+          </ul>
+        </nav>
+        <section class="hero">
+          <figure class="hero__image">
+            <img src="./images/illustration-intro.png" alt="Illustration of 
+            a person working on a computer">
+          </figure>
+          <article class="hero__content">
+            <h1 class="hero__content-title">All your files in one secure location, accessible anywhere.</h1>
+            <p class="hero__content-text"> Fylo stores all your most important files in one secure location. Access them wherever 
+              you need, share and collaborate with friends family, and co-workers.
+            </p>
+            <a href="#" class="hero__content-link">Get Started</a>
+          </article>
+        </section>
+      </div>
     </header>
 
     <!-- FEATURE SECTION -->
@@ -160,7 +171,7 @@
     <!-- SUBSCRIPTION SECTION -->
     <section class="subscription">
       <article class="subscription__content">
-        <h2 class="subscription__content-title">Get early access today/h2>
+        <h2 class="subscription__content-title">Get early access today </h2>
         <p class="subscription__content-text"> It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
           questions, our support team would be happy to help you.
         </p>
@@ -202,7 +213,7 @@
       </article>
     </section>
     <nav class="footer__navbar" aria-label="Footer Navigation">
-      <ul class="footer__navbar-menu">
+      <ul role="list" class="footer__navbar-menu">
         <li class="footer__navbar-menu-item">
           <a href="#">About Us</a>
         </li>
